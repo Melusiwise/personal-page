@@ -1,0 +1,47 @@
+body {
+    background-color: #c2a712;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.section1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1em;
+    margin: 1em;
+    margin-bottom: 0.5em;
+    border-radius: 1em;
+}
+
+img {
+    margin: auto;
+    display:block;
+
+}
+
+.side-bar {
+    float: left;
+    width: 25%;
+}
+.section2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1em;
+    margin: 1em;
+    margin-bottom: 0.5em;
+    border-radius: 1em;
+}
+
+.section3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1em;
+    margin: 1em;
+    margin-bottom: 0.5em;
+    border-radius: 1em;
+}
+.side-bar2 {
+    float: middle;
+   text-align: justify;
+   width: fit-content;
+}
+.side-bar3 {
+    float: right;
+    width: 25%;
+}
