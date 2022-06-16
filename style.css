@@ -1,47 +1,83 @@
 body {
-    background-color: #c2a712;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
-}
-.section1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 1em;
-    margin: 1em;
-    margin-bottom: 0.5em;
-    border-radius: 1em;
+    background-color: rgba(23, 136, 57, 0.678);
+    
 }
 
-img {
-    margin: auto;
-    display:block;
-
+.intro {
+    margin: 0em 20%;
+    align-items: flex-start;
 }
 
-.side-bar {
-    float: left;
-    width: 25%;
-}
-.section2 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 1em;
-    margin: 1em;
-    margin-bottom: 0.5em;
-    border-radius: 1em;
+table,
+th,
+td,
+tr {
+    border: 1px solid black;
+    border-collapse: collapse;
 }
 
-.section3 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 1em;
-    margin: 1em;
-    margin-bottom: 0.5em;
-    border-radius: 1em;
+.modules {
+    border: 1px solid lightsteelblue;
+    margin: 5px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    min-width: 20em;
+    
 }
-.side-bar2 {
-    float: middle;
-   text-align: justify;
-   width: fit-content;
+
+.place {
+    border: 1px solid snow;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 15px;
 }
-.side-bar3 {
-    float: right;
-    width: 25%;
+
+.mandela {
+    display: flex;
+    align-items: center;
+}
+
+.oriental {
+    display: flex;
+    align-items: center;
+}
+
+.maboneng {
+    display: flex;
+    align-items: center;
+}
+
+
+@media (min-width: 960px) {
+
+    h1 {
+        font-style: italic;
+        padding: 0em 10px;
+    }
+
+    .intro {
+        display: flex;
+        align-items: left;
+        margin-left: 20%;
+        margin-top: 4%;
+        padding: 4%;
+
+    }
+
+    .city {
+        display: flexbox;
+        align-items: center;
+    }
+
+    .modules {
+        display: flexbox;
+        margin: 3px;
+        padding: 5em;
+    }
+
+    .places {
+        display: flow-root;
+        margin: 3px;
+        padding: 5em;
+    }
 }
